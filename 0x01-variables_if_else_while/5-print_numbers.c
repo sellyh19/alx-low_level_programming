@@ -1,4 +1,4 @@
-#incude <stdio.h>
+#include <stdio.h>
 /**
  * main - single digit numbers
  * Return: 0
