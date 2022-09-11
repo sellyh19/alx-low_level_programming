@@ -1,36 +1,29 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - combine 2 numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int d = 48, a = 48, i = 48;
-while (d < 58)
-{
-a = 48;
-while (a < 58)
-{
-i = 48;
-while (i < 58)
-{
-if (d != a && a != i && d != i && d < a && a < i)
-{
-putchar(d);
-putchar(a);
-putchar(i);
-if (!(d == 55 && a == 56 && i == 57))
-{
-putchar(',');
-putchar(' ');
-}
-}
-i++;
-}
-a++;
-{
-d++;
-}
-putchar('\n');
-return (0);
+	int a = '0';
+	int b = a + 1;
+
+	while (a <= '8')
+	{
+		while (b <= '9')
+		{
+			putchar(a);
+			putchar(b);
+			if (a != '8')
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			b++;
+		}
+		a++;
+		b = a + 1;
+	}
+	putchar('\n');
+	return (0);
 }
