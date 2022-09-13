@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main1.h"
 /**
  * main- print _putchar
  * Return: 0
@@ -8,11 +8,11 @@ int main(void)
 char c[] = "_putchar";
 int i = 0;
 
-	while (i != '\0')
+	while (c[i] != '\0')
 	{
-	putchar(c[i]);
+	_putchar(c[i]);
 	i++;
 	}
-	putchar(10);
+	_putchar(10);
 	return (0);
 }
