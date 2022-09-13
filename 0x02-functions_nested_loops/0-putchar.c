@@ -4,9 +4,15 @@
  * Return: 0
  */
 int main(void)
-
-/*	char pc = "_putchar";*/
 {
-	printf("_putchar\n");
+char c[] = "_putchar";
+int i = 0;
+
+	while (i != '\0')
+	{
+	putchar(c[i]);
+	i++;
+	}
+	putchar(10);
 	return (0);
 }
