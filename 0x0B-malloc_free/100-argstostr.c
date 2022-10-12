@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-[2;2R[>77;30601;0c]10;rgb:bfbf/bfbf/bfbf]11;rgb:0000/0000/0000/**
+/**
   *argstostr - concatenates all arguments of the program.
   *@ac: argument count.
   *@av: pointer to array of size ac.
